@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comon/common-aaaaa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comon/common-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comon/common-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comon/common-utils" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/eure-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/identity-service" charset="UTF-8" />
+  </component>
+</project>

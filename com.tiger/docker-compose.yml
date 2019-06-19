@@ -1,0 +1,22 @@
+version: "3.0"
+services:
+  eureka-server:
+    image: "tiger/eureka-server:${VERSION}"
+    restart: always
+    ports:
+      - "80:8761"
+    environment:
+      - "server.port:8761"
+    hostname: eureka-server
+  config-server:
+    image: "tiger/config-server:${VERSION}"
+    restart: always
+    depends_on:
+      - "eureka-server"
+    environment:
+      - "server-host:${EUREKASERVERHOST}"
+      - "server-user:${SERVERUSER}"
+networks:
+ default:
+  external:
+   name: default_bridge
